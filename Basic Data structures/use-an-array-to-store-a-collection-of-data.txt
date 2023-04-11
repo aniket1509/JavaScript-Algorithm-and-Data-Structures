@@ -1,0 +1,1 @@
+let yourArray = ["Name", 28, true, 88, "hello"]; // Change this line

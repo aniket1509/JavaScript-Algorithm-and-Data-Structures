@@ -1,0 +1,15 @@
+function sumFibs(num) {
+  let prev = 0;
+  let next = 1;
+  let result = 0;
+
+  while(next<=num){
+    if(next%2!==0){
+      result+=next;
+    }
+    next+=prev;
+    prev = next-prev;
+  }
+  return result;
+}
+console.log(sumFibs(4));
